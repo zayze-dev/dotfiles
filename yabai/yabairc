@@ -1,0 +1,67 @@
+# default layout (can be bsp, stack or float)
+yabai -m config layout bsp
+
+# New window spawns to the right if vertical split, or bottom if horizontal split
+yabai -m config window_placement second_child
+
+# padding set to 12px
+yabai -m config top_padding 12
+yabai -m config bottom_padding 12
+yabai -m config left_padding 12
+yabai -m config right_padding 12
+yabai -m config window_gap 12
+
+# center mouse on window with focus
+yabai -m config mouse_follows_focus on
+
+# modifier for clicking and dragging with mouse
+yabai -m config mouse_modifier alt
+# set modifier + left-click drag to move window
+yabai -m config mouse_action1 move
+# set modifier + right-click drag to resize window
+yabai -m config mouse_action2 resize
+
+
+# when window is dropped in center of another window, swap them (on edges it will split it)
+yabai -m mouse_drop_action swap
+
+#https://github.com/koekeishiya/yabai/issues/692
+#关闭窗口自动切换
+yabai -m signal --add event=window_destroyed action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
+yabai -m signal --add event=application_terminated action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
+
+
+#yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^系统设置$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^QQ$" manage=off
+yabai -m rule --add app="^Telegram$" manage=off
+#yabai -m rule --add app="^TickTick$" manage=off
+yabai -m rule --add app="^滴答清单$" manage=off
+#yabai -m rule --add app="^BaiduNetdisk_mac$" manage=off
+yabai -m rule --add app="^百度网盘$" manage=off
+yabai -m rule --add app="^Bitwarden$" manage=off
+yabai -m rule --add app="^邮件$" manage=off
+yabai -m rule --add app="^CleanMyMac X$" manage=off
+yabai -m rule --add app="^Reeder$" manage=off
+yabai -m rule --add app="^微信$" manage=off
+yabai -m rule --add app="^Seafile$" manage=off
+yabai -m rule --add app="^Keka$" manage=off
+yabai -m rule --add app="^文本编辑$" manage=off
+yabai -m rule --add app="^日历$" manage=off
+yabai -m rule --add app="^Permute 3$" manage=off
+yabai -m rule --add app="^OrbStack$" manage=off
+yabai -m rule --add app="^安装器$" manage=off
+yabai -m rule --add app="^通讯录$" manage=off
+yabai -m rule --add app="^Bartender 4$" manage=off
+yabai -m rule --add app="^iStat Menus$" manage=off
+#yabai -m rule --add app="^Studio One 5$" manage=off
+yabai -m rule --add app="^SSH Tunnel Manager$" manage=off
+yabai -m rule --add app="^Raycast$" manage=off
+yabai -m rule --add app="^Hazel$" manage=off
+yabai -m rule --add app="^Studio One$" manage=off
+yabai -m rule --add app="^QQMiniApp$" manage=off
+yabai -m rule --add app="^腾讯会议$" manage=off
+yabai -m rule --add app="^IK Product Manager$" manage=off
+
