@@ -119,15 +119,14 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=zh_CN.UTF-8
 export LANG=zh_CN.UTF-8
 
-# cd /Users/zayze/Developer
-
 alias rsy='/Users/zayze/Developer/tools/upload/rsy'
 # alias rm='trash -F'
 alias rm='echo "this is not the command you are looking for."; false'
 alias S='neofetch'
+# alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
+alias lg='lazygit'
 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-
 
 source ~/.bash_profile
 conda activate my_env
@@ -135,17 +134,15 @@ conda activate my_env
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
-
-#  node
-#source $(brew --prefix nvm)/nvm.sh
+# node
+# source $(brew --prefix nvm)/nvm.sh
 eval "$(fnm env --use-on-cd)"
 
 # HSTR configuration - add this to ~/.zshrc
 alias hh=hstr                    # hh to be alias for hstr
 setopt histignorespace           # skip cmds w/ leading space from history
 export HSTR_CONFIG=hicolor       # get more colors
-bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+#bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
 export HSTR_TIOCSTI=y
 
 # tailscale
@@ -153,8 +150,6 @@ export PATH=$HOME/go/bin/:$PATH
 
 # tmux init 
 tmux ls
-
-#test dotfiles
 
 #gpg
 #https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
