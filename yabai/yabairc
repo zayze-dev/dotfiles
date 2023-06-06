@@ -64,4 +64,6 @@ yabai -m rule --add app="^Studio One$" manage=off
 yabai -m rule --add app="^QQMiniApp$" manage=off
 yabai -m rule --add app="^腾讯会议$" manage=off
 yabai -m rule --add app="^IK Product Manager$" manage=off
+yabai -m rule --add app="^SwitchHosts$" manage=off
+
 
