@@ -125,6 +125,7 @@ alias rm='echo "this is not the command you are looking for."; false'
 alias S='neofetch'
 # alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
 alias lg='lazygit'
+alias icat="kitty +kitten icat"
 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
