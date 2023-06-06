@@ -20,6 +20,28 @@
 # each instance of Alacritty. If it is not present, alacritty will
 # check the local terminfo database and use `alacritty` if it is
 # available, otherwise `xterm-256color` is used.
+
+#https://github.com/andrew8088/dotfiles/blob/main/alacritty/alacritty.yml
+font:
+#  normal:
+#    family: "MonoLisaVariable Nerd Font"
+#    style: Regular
+#  bold:
+#    family: "MonoLisaVariable Nerd Font"
+#    style: Bold
+#  italic:
+#    family: "MonoLisaScript Nerd Font"
+#    style: Italic
+#  bold_italic:
+#    family: "MonoLisaVariable Nerd Font"
+#    style: Bold Italic
+  size: 14.0
+  # use_thin_strokes: true
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
 #TERM: alacritty
 window:
   # Window dimensions (changes require restart)
