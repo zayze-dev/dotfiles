@@ -151,7 +151,7 @@ export HSTR_TIOCSTI=y
 export PATH=$HOME/go/bin/:$PATH
 
 # tmux init 
-tmux ls
+#tmux ls
 
 #gpg
 #https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
