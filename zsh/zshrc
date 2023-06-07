@@ -126,7 +126,7 @@ alias S='neofetch'
 # alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
 alias lg='lazygit'
 alias icat="kitty +kitten icat"
-#alias s="kitty +kitten ssh"
+alias s="kitty +kitten ssh"
 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
@@ -157,3 +157,6 @@ export PATH=$HOME/go/bin/:$PATH
 #https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 #$ if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=\$(tty)' >> ~/.zshrc; \
 #  else echo -e '\nexport GPG_TTY=\$(tty)' >> ~/.zprofile; fi
+
+# conda python bin
+export PATH="/Users/zayze/Library/Python/3.11/bin:$PATH"
