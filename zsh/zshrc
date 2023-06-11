@@ -1,3 +1,6 @@
+#source
+#source $HOME/.env.sh
+
 # zprof zsh time test
 # zmodload zsh/zprof
 
@@ -119,19 +122,10 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=zh_CN.UTF-8
 export LANG=zh_CN.UTF-8
 
-alias rsy='/Users/zayze/Developer/tools/upload/rsy'
-# alias rm='trash -F'
-alias rm='echo "this is not the command you are looking for."; false'
-alias S='neofetch'
-# alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
-alias lg='lazygit'
-alias icat="kitty +kitten icat"
-alias s="kitty +kitten ssh"
-
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 source ~/.bash_profile
-conda activate my_env
+#conda activate my_env
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -147,20 +141,37 @@ export HSTR_CONFIG=hicolor       # get more colors
 #bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
 export HSTR_TIOCSTI=y
 
-# tailscale
-export PATH=$HOME/go/bin/:$PATH
-
-# tmux init 
-#tmux ls
-
-#gpg
+# gpg
 #https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 #$ if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=\$(tty)' >> ~/.zshrc; \
 #  else echo -e '\nexport GPG_TTY=\$(tty)' >> ~/.zprofile; fi
 
-# conda python bin
-export PATH="/Users/zayze/Library/Python/3.11/bin:$PATH"
+## conda python bin
+# export PATH="/Users/zayze/Library/Python/3.11/bin:$PATH"
 
-# joshuto
+## joshuto
 export JOSHUTO_CONFIG_HOME=~/.dotfiles/joshuto
 
+# myenv python venv
+source ~/.venvs/myenv/bin/activate
+
+# .zshrc.pre-oh-my-zsh 
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#if command -v pyenv 1>/dev/null 2>&1; then
+#  eval "$(pyenv init -)"
+#fi
+#alias mysql=/usr/local/mysql/bin/mysql
+
+precmd() {
+    source ~/.dotfiles/zsh/aliases
+}
+
+# tailscale go
+export PATH=$HOME/go/bin/:$PATH
+
+# bbdown from dotnet
+export PATH=$PATH:/Users/zayze/.dotnet/tools
+
+# kitty
+export KITTY_CONFIG_DIRECTORY=~/.dotfiles/kitty

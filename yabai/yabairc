@@ -67,4 +67,6 @@ yabai -m rule --add app="^IK Product Manager$" manage=off
 yabai -m rule --add app="^SwitchHosts$" manage=off
 yabai -m rule --add app="^Sonixd$" manage=off
 yabai -m rule --add app="^Downie 4$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
+
 

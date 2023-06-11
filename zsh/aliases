@@ -1,0 +1,26 @@
+# overwrite
+#alias rm='trash -F'
+alias rm='echo "this is not the command you are looking for."; false'
+alias ranger='joshuto'
+
+# simply
+alias S='neofetch'
+alias lg='lazygit'
+alias icat="kitty +kitten icat"
+alias s="kitty +kitten ssh"
+alias youdown="yt-dlp"
+
+# yabai
+alias yabaistop="yabai --stop-service"
+alias yabairestart="yabai --restart-service"
+alias yabaistart="yabai --start-service"
+
+# tmux
+alias tmuxreload="tmux source-file ~/.dotfiles/tmux/tmux.conf"
+
+alias vim="nvim"
+
+# custom program
+#alias rsy='/Users/zayze/Developer/tools/upload/rsy'
+#alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
+
