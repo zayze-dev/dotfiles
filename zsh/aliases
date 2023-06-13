@@ -20,6 +20,13 @@ alias tmuxreload="tmux source-file ~/.dotfiles/tmux/tmux.conf"
 
 alias vim="nvim"
 
+# joshuto
+#alias j="~/.config/joshuto/joshuto_wrapper"
+alias j="joshuto"
+
+alias t="tmux"
+alias tl="tmux ls"
+
 # custom program
 #alias rsy='/Users/zayze/Developer/tools/upload/rsy'
 #alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"

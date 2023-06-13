@@ -175,3 +175,6 @@ export PATH=$PATH:/Users/zayze/.dotnet/tools
 
 # kitty
 export KITTY_CONFIG_DIRECTORY=~/.dotfiles/kitty
+
+source ~/.dotfiles/zsh/vi.zsh
+

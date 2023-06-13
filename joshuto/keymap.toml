@@ -61,6 +61,8 @@ keymap = [
   { keys = [ "u" ],command = "cursor_move_up" },
   { keys = [ "J" ],command = "cursor_move_down 5" },
   { keys = [ "U" ],command = "cursor_move_up 5" },
+  { keys = [ "K" ],command = "cursor_move_up 5" },
+
 
   { keys = ["H"], command = "cursor_move_page_home" },
   { keys = ["L"], command = "cursor_move_page_middle" },
@@ -92,7 +94,7 @@ keymap = [
   { keys = ["f", "t"], command = ":touch " },
 
   { keys = [" "], command = "select --toggle=true" },
-  #{ keys = ["t"], command = "select --all=true --toggle=true" },
+  { keys = ["s","a"], command = "select --all=true --toggle=true" },
   #{ keys = ["V"], command = "toggle_visual" },
 
   { keys = ["w"], command = "show_tasks --exit-key=w" },
@@ -103,7 +105,7 @@ keymap = [
   { keys = [";"], command = ":" },
 
   { keys = ["'"], command = ":shell " },
-  { keys = ["m", "k"], command = ":mkdir " },
+  { keys = ["m", "d"], command = ":mkdir " },
   { keys = ["c", "w"], command = ":rename " },
 
   { keys = ["/"], command = ":search " },
@@ -126,6 +128,8 @@ keymap = [
   #{ keys = ["m", "m"], command = "linemode mtime" },
   #{ keys = ["m", "M"], command = "linemode sizemtime" },
   
+  # fast command
+  { keys = ["S"], command = "shell zsh" },
   # fastgoto 
   { keys = ["g", "r"], command = "cd /" },
   # download

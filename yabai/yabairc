@@ -68,5 +68,15 @@ yabai -m rule --add app="^SwitchHosts$" manage=off
 yabai -m rule --add app="^Sonixd$" manage=off
 yabai -m rule --add app="^Downie 4$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Final Cut Pro$" manage=off
+yabai -m rule --add app="^便笺$" manage=off
+yabai -m rule --add app="^oss-browser$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
+
+
+
+
+
+
 
 
