@@ -55,7 +55,7 @@ keymap = [
   { keys = ["l"], command = "open" },
   { keys = ["g", "g"], command = "cursor_move_home" },
   { keys = ["G"], command = "cursor_move_end" },
-  { keys = ["r"], command = "open_with" },
+  #{ keys = ["r"], command = "open_with" },
   # vim-like keybindings
   #{ keys = [ "e" ],command = "cursor_move_down" },
   { keys = [ "u" ],command = "cursor_move_up" },
@@ -153,7 +153,8 @@ keymap = [
   { keys = ["?"], command = "help" },
 
   # music player
-  { keys = ["o", "p"], command = ":open_with afplay" },
+  #{ keys = ["o", "p"], command = "open_with afplay" },
+  #{ keys = ["o", "n"], command = ":open_with nvim" },
 ]
 
 [task_view]

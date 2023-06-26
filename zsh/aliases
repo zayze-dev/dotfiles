@@ -19,6 +19,8 @@ alias yabaistart="yabai --start-service"
 alias tmuxreload="tmux source-file ~/.dotfiles/tmux/tmux.conf"
 
 alias vim="nvim"
+alias n="nvim"
+
 
 # joshuto
 #alias j="~/.config/joshuto/joshuto_wrapper"
