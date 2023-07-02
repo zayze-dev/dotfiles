@@ -130,14 +130,18 @@ keymap = [
   
   # fast command
   { keys = ["S"], command = "shell zsh" },
+  
   # fastgoto 
   { keys = ["g", "r"], command = "cd /" },
+  
   # download
   { keys = ["g", "d"], command = "cd ~/Downloads" },
   { keys = ["g", "n"], command = "cd ~/Cloud/NextCloud" },
   #{ keys = ["g", "e"], command = "cd /etc" },
   { keys = ["g", "h"], command = "cd ~/" },
-  #config
+  { keys = ["g", "k"], command = "cd /Volumes/Kindle/documents" },
+
+    #config
   { keys = [ "g", "f", "f" ],command = "cd ~/.config" },
   { keys = [ "g", "f", "d" ],command = "cd ~/.dotfiles" },
   #{ keys = [ "g", "f", "n" ],command = "cd ~/.config/nvim" },

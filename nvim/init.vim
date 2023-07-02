@@ -1,4 +1,3 @@
-set number
 noremap H ^
 noremap L $
 noremap J 5j

@@ -76,6 +76,18 @@ yabai -m rule --add app="^Notion$" manage=off
 yabai -m rule --add app="^磁盘工具$" manage=off
 yabai -m rule --add app="^VMware Fusion$" manage=off
 yabai -m rule --add app="^信息$" manage=off
+yabai -m rule --add app="^Cron$" manage=off
+yabai -m rule --add app="^QuickTime Player$" manage=off
+yabai -m rule --add app="^Epic Games Launcher$" manage=off
+yabai -m rule --add app="^Kindle Comic Converter$" manage=off
+yabai -m rule --add app="^Affinity Designer$" manage=off
+yabai -m rule --add app="^TeamSpeak 3$" manage=off
+yabai -m rule --add app="^活动监视器$" manage=off
+yabai -m rule --add app="^Keka Finder Integration$" manage=off
+yabai -m rule --add app="^Meta$" manage=off
+yabai -m rule --add app="^IINA$" manage=off
+
+
 
 
 
