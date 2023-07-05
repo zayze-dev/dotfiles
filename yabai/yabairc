@@ -86,6 +86,9 @@ yabai -m rule --add app="^活动监视器$" manage=off
 yabai -m rule --add app="^Keka Finder Integration$" manage=off
 yabai -m rule --add app="^Meta$" manage=off
 yabai -m rule --add app="^IINA$" manage=off
+yabai -m rule --add app="^Raspberry Pi Imager$" manage=off
+yabai -m rule --add app="^图书$" manage=off
+
 
 
 

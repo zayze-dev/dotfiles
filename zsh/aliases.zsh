@@ -2,6 +2,7 @@
 #alias rm='trash -F'
 alias rm='echo "this is not the command you are looking for."; false'
 #alias ranger='joshuto'
+alias vim="nvim"
 
 # simply
 alias S='neofetch'

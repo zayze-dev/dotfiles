@@ -1,4 +1,4 @@
-# tailscale go
+# go
 export PATH=$HOME/go/bin/:$PATH
 
 # bbdown from dotnet
