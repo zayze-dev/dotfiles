@@ -34,5 +34,5 @@ alias rsy="~/Developer/tools/upload/rsy"
 #alias spotdl="/Users/zayze/Developer/tools/spotdl/spotdl-4.1.6-darwin --audio youtube --download"
 
 # login
-alias inpi="ssh zayze_pi@pi.zayze"
+alias inpi="ssh pi@raspberrypi.local"
 alias sinpi="kitty +kitten ssh zayze_pi@pi.zayze"
