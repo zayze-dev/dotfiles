@@ -4,7 +4,7 @@ keymap = [
   #{ keys = ["escape"], command = "escape" },
   #{ keys = ["ctrl+t"], command = "new_tab" },
   #{ keys = ["alt+t"], command = "new_tab --cursor" },
-  { keys = ["t", "u"], command = "new_tab --current" },
+  { keys = ["t", "n"], command = "new_tab --current" },
   
   #{ keys = ["W"], command = "close_tab" },
   #{ keys = ["ctrl+w"], command = "close_tab" },
@@ -154,6 +154,10 @@ keymap = [
   { keys = [ "g", "m", "t" ],command = "cd /Volumes/T7/04 Resource/01 Truefire" },
   { keys = [ "g", "m", "i" ],command = "cd /Users/zayze/Library/Mobile Documents/com~apple~CloudDocs/Downloads" },
 
+  # storage
+  { keys = [ "g", "s", "i" ],command = "cd ~/Library/Mobile Documents/com~apple~CloudDocs/Downloads" },
+
+  
   { keys = ["?"], command = "help" },
 
   # music player
