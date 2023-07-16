@@ -35,4 +35,4 @@ alias rsy="~/Developer/tools/upload/rsy"
 
 # login
 alias inpi="ssh pi@raspberrypi.local"
-alias sinpi="kitty +kitten ssh zayze_pi@pi.zayze"
+alias sinpi="kitty +kitten ssh pi@raspberrypi.local"
